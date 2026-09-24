@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Argus - Member Insight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="proto-nav">
+            <a href="index.html">👤 Member Profile</a>
+            <a href="team.html">👥 Team Overview</a>
+            <a href="unmatched.html">⚠️ Unmatched Queue</a>
+        </nav>
+
+        <div class="freshness-strip">
+            <div class="freshness-pill healthy"><span>GitHub</span><span>✓ synced 2h ago</span></div>
+        </div>
+
+        <header class="page-header">
+            <h1 class="page-title">Member Insight: Isiwara</h1>
+            <p class="page-subtitle">Evidence-based engineering intelligence</p>
+        </header>
+
+        <div class="question-tabs">
+            <a href="#" class="tab-card active"><span class="tab-num">01</span><span class="tab-label">Current
+                    Work</span></a>
+            <a href="#" class="tab-card"><span class="tab-num">02</span><span class="tab-label">Blockers</span></a>
+            <a href="#" class="tab-card"><span class="tab-num">03</span><span class="tab-label">Risks</span></a>
+        </div>
+
+        <section class="claim-card">
+            <div class="claim-meta">
+                <span class="badge badge-fact">[F] Fact</span>
+                <span class="badge badge-conf-high">● HIGH</span>
+            </div>
+            <p class="claim-body">Isiwara successfully refactored the authentication middleware and merged pull request
+                #182.</p>
+            <button class="evidence-toggle" onclick="toggleDrawer(this)">[Show evidence ▼]</button>
+            <div class="evidence-drawer">
+                <div class="evidence-item">
+                    <strong>GitHub PR #182</strong>: Refactored middleware.<br>
+                    <small class="text-xs">Observed: 2026-09-24 10:00 UTC</small><br>
+                    <a href="#" class="source-link">View Source Record →</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
